@@ -1,5 +1,4 @@
 import random
-import time
 
 
 def my_func():
@@ -25,8 +24,3 @@ for num in my_func():
 
 for num in my_generator():
     print 'got: %s' % num
-
-
-for num in my_generator():
-    print 'got: %s' % num
-    time.sleep(1)
